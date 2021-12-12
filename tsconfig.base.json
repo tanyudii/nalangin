@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nalangin/interfaces": ["libs/interfaces/src/index.ts"],
-      "@nalangin/nest-common": ["libs/nest-common/src/index.ts"]
+      "@nalangin/common": ["libs/common/src/index.ts"],
+      "@nalangin/nest-common": ["libs/nest-common/src/index.ts"],
+      "@nalangin/nest-graphql": ["libs/nest-graphql/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

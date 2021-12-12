@@ -3,10 +3,11 @@
   "projects": {
     "api-gateway": "apps/api-gateway",
     "auth-service": "apps/auth-service",
-    "interfaces": "libs/interfaces",
+    "common": "libs/common",
     "mobile-app": "apps/mobile-app",
     "mobile-app-e2e": "apps/mobile-app-e2e",
     "nest-common": "libs/nest-common",
+    "nest-graphql": "libs/nest-graphql",
     "payment-service": "apps/payment-service",
     "shopping-service": "apps/shopping-service",
     "user-service": "apps/user-service",
