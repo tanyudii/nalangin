@@ -2027,7 +2027,7 @@
     "@nrwl/linter" "13.3.1"
     "@nrwl/node" "13.3.1"
 
-"@nrwl/next@13.3.1":
+"@nrwl/next@^13.3.1":
   version "13.3.1"
   resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-13.3.1.tgz#735c027fed44458faa17fc5940f6139d43b7ce68"
   integrity sha512-gYBrfxJG+CxLfIY0dtVatoYdRxEKmmZoQKzET4B8aG228oem80KmkCaxZOnNoh1UIHnewh0b52wr8NdQOp6sKA==
