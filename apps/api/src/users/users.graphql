@@ -1,0 +1,13 @@
+type User {
+  id: String!
+  name: String!
+  email: String
+  phoneNumber: String
+}
+
+type Query {
+  findAllUser: [User]
+  findUserByID(id: String!): User
+  findUserByEmail(email: String!): User
+  findUserByPhoneNumber(phoneNumber: String!): User
+}

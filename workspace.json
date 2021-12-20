@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "api": "apps/api",
     "common": "libs/common",
     "mobile-app": "apps/mobile-app",
     "mobile-app-e2e": "apps/mobile-app-e2e",
