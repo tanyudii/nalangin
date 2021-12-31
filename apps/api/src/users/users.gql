@@ -1,0 +1,37 @@
+type User {
+  id: String!
+  name: String!
+  email: String
+  phoneNumber: String
+}
+
+input CreateUserInput {
+  name: String!
+  email: String!
+  password: String!
+  phoneNumber: String
+  avatar: String
+}
+
+input UpdateUserInput {
+  id: String!
+  name: String!
+  email: String!
+  password: String
+  oldPassword: String
+  phoneNumber: String
+  avatar: String
+}
+
+type Query {
+  findUsers: [User]
+  findUserByID(id: String!): User
+  findUserByEmail(email: String!): User
+  findUserByPhoneNumber(phoneNumber: String!): User
+}
+
+type Mutation {
+  createUser(input: CreateUserInput!): User!
+  updateUser(input: UpdateUserInput!): User!
+  removeUser(id: String!): User!
+}
